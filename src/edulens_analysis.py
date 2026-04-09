@@ -5,6 +5,12 @@ def load_data(path):
     """Load student performance dataset"""
     return pd.read_csv(path)
 
+def clean_data(df):
+    """Clean column names and remove missing values"""
+    df.columns = df.columns.str.lower().str.replace(" ", "_")
+    df = df.dropna()
+    return df
+
 def basic_overview(df):
     """Display basic information about the dataset"""
     print("Dataset Preview:")
@@ -12,6 +18,15 @@ def basic_overview(df):
 
     print("Statistical Summary:")
     print(df.describe())
+
+def performance_by_gender(df):
+    """Average scores grouped by gender"""
+    avg_scores = df.groupby("gender")[
+        ["math_score", "reading_score", "writing_score"]
+    ].mean()
+
+    print("\nAverage Scores by Gender:")
+    print(avg_scores)
 
 def performance_distribution(df):
     """Visualize score distribution"""
@@ -21,10 +36,13 @@ def performance_distribution(df):
     plt.xlabel("Score")
     plt.ylabel("Number of Students")
     plt.tight_layout()
-    plt.show()
+    plt.savefig("insights/math_score_distribution.png")
+    plt.close()
 
 if __name__ == "__main__":
-    data_path = "data/students.csv"
     df = load_data(data_path)
+    df = clean_data(df)
+
     basic_overview(df)
+    performance_by_gender(df)
     performance_distribution(df)
