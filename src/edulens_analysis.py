@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 def load_data(path):
     """Load student performance dataset"""
-    return pd.read_csv(path)
+    return pd.read_csv(data/students.csv")
 
 def clean_data(df):
     """Clean column names and remove missing values"""
@@ -40,7 +40,7 @@ def performance_distribution(df):
     plt.close()
 
 if __name__ == "__main__":
-    df = load_data(data_path)
+    df = load_data(data/students.csv")
     df = clean_data(df)
 
     basic_overview(df)
