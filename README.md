@@ -1,12 +1,16 @@
-## 🎓 EduLens – Student Performance Intelligence System
-
+🎓 EduLens – Student Performance Intelligence System
 
 📌 Overview
 EduLens is a Python‑based data analytics and intelligence system designed to explore student academic performance and uncover meaningful insights using statistical analysis and data visualization.
 The project focuses on transforming raw educational data into clear, interpretable insights that can support data‑driven academic decisions.
 
 🎯 Project Objective
-To demonstrate practical Data Science skills by analyzing real‑world educational datasets and presenting insights through clean preprocessing, exploratory analysis, and visual storytelling.
+To demonstrate practical Data Science skills by analyzing real‑world educational datasets and presenting insights through:
+
+Clean preprocessing
+Exploratory data analysis (EDA)
+Visual storytelling
+
 
 🧠 Key Capabilities
 
@@ -27,9 +31,9 @@ Matplotlib – data visualization
 
 📂 Project Structure
 EduLens/
-├── new.py               # Main analysis script
-├── students.csv         # Dataset
-├── README.md            # Project documentation
+├── new.py           # Main analysis script
+├── students.csv     # Dataset
+└── README.md        # Project documentation
 
 
 ⚙️ How It Works
@@ -49,13 +53,13 @@ Dataset structure and summary
 Visual insights (charts)
 
 
-📊 Sample Insights (Examples)
+📊 Sample Insights
 
 Performance distribution across students
 Identification of high‑ and low‑scoring trends
 Clean visual summaries for quick interpretation
 
-(Adding screenshots of graphs here is in progress i will add this very soon....!)
+📌 (Add screenshots of generated graphs here for better presentation)
 
 🚀 Future Enhancements
 
@@ -67,10 +71,10 @@ Clean visual summaries for quick interpretation
 
 📚 Learning Outcomes
 
-Hands‑on experience with real datasets
-Strong understanding of EDA (Exploratory Data Analysis)
+Hands‑on experience with real educational datasets
+Strong understanding of Exploratory Data Analysis (EDA)
 Improved skills in data visualization and interpretation
-Foundation for building advanced ML‑based educational systems
+Solid foundation for advanced ML‑based educational systems
 
 
 👤 Author
@@ -81,4 +85,4 @@ Shubham Yadav
 🔗 GitHub: https://github.com/Shubham-Yadav006
 🔗 LinkedIn: https://linkedin.com/in/shubhamskyhero
 
-⭐ EduLens reflects a step toward building intelligent, data‑driven educational solutions.
+⭐ EduLens represents a step toward building intelligent, data‑driven educational solutions.
