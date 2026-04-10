@@ -1,6 +1,6 @@
-## EduLens – Student Performance Intelligence System
+## 🎓 EduLens – Student Performance Intelligence System
 
-🎓 EduLens – Student Performance Intelligence System
+
 📌 Overview
 EduLens is a Python‑based data analytics and intelligence system designed to explore student academic performance and uncover meaningful insights using statistical analysis and data visualization.
 The project focuses on transforming raw educational data into clear, interpretable insights that can support data‑driven academic decisions.
