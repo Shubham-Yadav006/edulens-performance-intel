@@ -9,8 +9,7 @@ to uncover trends, relationships, and key influencing factors using Python.
 - Pandas
 - Matplotlib
 - Seaborn
-- Streamlit
-- Scikit-learn
+
 
 ## 📊 Visual Insights
 | Insight | Visualization |
@@ -22,9 +21,10 @@ to uncover trends, relationships, and key influencing factors using Python.
 | Math vs Reading relationship | Scatter Plot |
 
 ## 📸 Sample Graphs
-insights/gender_boxplot.png
-insights/test_prep_pie.png
-insights/subject_line_chart.png
+
+![Gender Boxplot](insights/gender_boxplot.png)
+![Test Prep Pie](insights/test_prep_pie.png)
+![Subject Line Chart](insights/subject_line_chart.png)
 
 ## 🤖 Machine Learning
 - Linear Regression to predict average score
@@ -33,6 +33,6 @@ insights/subject_line_chart.png
 
 ## 🚀 How to Run
 ```bash
-pip install pandas matplotlib seaborn scikit-learn streamlit
+pip install pandas matplotlib seaborn 
 cd src
 python edulens_analysis.py
