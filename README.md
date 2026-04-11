@@ -1,51 +1,38 @@
-# 🎓 EduLens – Student Performance Intelligence System
-
----
+# 🎓 Student Performance Analysis (EduLens)
 
 ## 📌 Overview
-
-EduLens is a **Python-based student performance analytics system** designed to analyze academic datasets and uncover meaningful insights using statistical analysis and data visualization.
-
-It transforms raw educational data into **clear, interpretable insights** that support data-driven academic decision-making.
-
----
-
-## 🎯 Project Objective
-
-The primary objective of this project is to demonstrate **practical Data Science skills** by working with real-world educational data and presenting insights through:
-
-- ✅ Clean data preprocessing  
-- ✅ Exploratory Data Analysis (EDA)  
-- ✅ Visual storytelling using charts and summaries  
-
----
-
-## 🧠 Key Capabilities
-
-- 📊 Academic performance trend analysis  
-- 📈 Statistical summaries of student data  
-- 🧹 Data cleaning and preprocessing  
-- 📉 Insightful visualizations for pattern discovery  
-- 🔍 Exploratory analysis to identify correlations and trends  
-
----
+EduLens is a data analytics project that analyzes student academic performance
+to uncover trends, relationships, and key influencing factors using Python.
 
 ## 🛠️ Tech Stack
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Streamlit
+- Scikit-learn
 
-### ▶ Programming Language
-- 🐍 Python  
+## 📊 Visual Insights
+| Insight | Visualization |
+|------|---------------|
+| Gender score distribution | Box Plot |
+| Parental education impact | Horizontal Bar Chart |
+| Test prep participation | Pie Chart |
+| Subject-wise trends | Line Chart |
+| Math vs Reading relationship | Scatter Plot |
 
-### ▶ Data Science Libraries
-- Pandas – data manipulation & analysis  
-- NumPy – numerical computations  
-- Matplotlib – data visualization  
+## 📸 Sample Graphs
+insights/gender_boxplot.png
+insights/test_prep_pie.png
+insights/subject_line_chart.png
 
----
+## 🤖 Machine Learning
+- Linear Regression to predict average score
+- Features: gender, parental education, lunch, test prep
+- Evaluated using Mean Squared Error (MSE)
 
-## 📂 Project Structure
-
-```text
-EduLens/
-├── new.py          # Main analysis script
-├── students.csv    # Dataset
-└── README.md       # Project documentation
+## 🚀 How to Run
+```bash
+pip install pandas matplotlib seaborn scikit-learn streamlit
+cd src
+python edulens_analysis.py
