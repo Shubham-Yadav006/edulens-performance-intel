@@ -1,16 +1,11 @@
-student_id,gender,age,class,math_score,reading_score,writing_score,study_hours_per_week,attendance_percentage,test_preparation
-S001,female,15,10,88,90,92,12,95,completed
-S002,male,16,10,72,75,70,8,88,none
-S003,female,15,9,91,94,96,14,98,completed
-S004,male,17,11,64,60,58,6,80,none
-S005,female,16,11,85,88,90,10,92,completed
-S006,male,15,9,78,74,76,9,90,none
-S007,female,14,8,95,96,94,15,99,completed
-S008,male,16,10,69,68,70,7,85,none
-S009,female,17,12,82,85,88,11,93,completed
-S010,male,18,12,71,72,74,8,89,none
-S011,female,15,10,90,92,91,13,97,completed
-S012,male,14,8,66,65,64,5,78,none
-S013,female,16,11,87,89,90,12,94,completed
-S014,male,17,11,73,70,68,8,86,none
-S015,female,18,12,92,94,95,14,98,completed
+gender,parental level of education,lunch,test preparation course,math score,reading score,writing score
+female,bachelor's degree,standard,completed,72,72,74
+female,some college,standard,none,69,90,88
+male,master's degree,standard,completed,90,95,93
+male,associate's degree,free/reduced,none,47,57,44
+female,associate's degree,free/reduced,completed,76,78,75
+female,bachelor's degree,standard,none,71,83,78
+male,some college,standard,completed,88,86,84
+male,high school,free/reduced,none,40,39,33
+female,master's degree,standard,completed,92,100,98
+male,bachelor's degree,standard,none,85,82,80
