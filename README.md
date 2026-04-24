@@ -4,7 +4,7 @@
 EduLens is a data analytics project that analyzes student academic performance
 to uncover trends, relationships, and key influencing factors using Python.
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack Used
 - Python
 - Pandas
 - Matplotlib
